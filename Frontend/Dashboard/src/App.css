@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* category page */
+
+.add_btn{
+  margin-bottom: 20px;
+}
+
+
+
+.addCategory_div{
+  width: 600px;
+}
+
+.edit_div{
+  width: 600px;
+}
+
+/* camapaign page */
+
+.addcampaign_div input{
+  margin: 10px 0;
+}
+
+.addcampaign_div textarea{
+  
+}
+
+
+/* Admin Sign up */
+
+.login_icon{
+  border: 1px solid;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  color: white;
+  margin: auto;
+}
+
+
+.logout_btn{
+  background-color: crimson !important;
+  color: white !important;
+  /* margin-left: 1020px !important; */
+  border-radius: 10px !important;
+}
+
+
+.link1{
+  margin-top: 50px !important;
+}
+
+
+
